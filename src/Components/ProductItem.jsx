@@ -6,7 +6,7 @@ function ProductItem() {
   const [shoe, setShoe] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/shoes/${id}`)
+    fetch(`http://localhost:3000/shoes`)
       .then((r) => r.json())
       .then((data) => setShoe(data))
       .catch((error) => console.log(error));

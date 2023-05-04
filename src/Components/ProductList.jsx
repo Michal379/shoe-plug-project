@@ -28,7 +28,9 @@ function ProductList() {
             <div className="card-body">
               <p className="card-text">Description : {shoe.description}</p>
               <p className="card-text">Price : {shoe.price}</p>
-              <Link to={`/productItem`} className="btn btn-primary">View details</Link>
+              <Link to={`/productItem/${shoe.id}`} className="btn btn-primary">
+                View details
+              </Link>
             </div>
           </div>
         </article>
