@@ -1,15 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-function SearchBar({ shoes }) {
+function SearchBar({ onSearch }) {
   const [searchTerm, setSearchTerm] = useState('');
+  const [shoes, setShoes] = useState([]);
 
-  const filteredShoes = shoes && shoes.filter((shoe) => {
+  useEffect(() => {
+    fetch('http://localhost:3000/shoes')
+      .then((r) => r.json())
+      .then((data) => setShoes(data))
+      .catch((error) => console.log(error));
+  }, []);
+
+  const filteredShoes = shoes.filter((shoe) => {
     return shoe.name.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // handle the search logic here
+    onSearch(filteredShoes);
   };
 
   const handleChange = (event) => {
@@ -36,14 +44,16 @@ function SearchBar({ shoes }) {
             <th>Name</th>
             <th>Description</th>
             <th>Price</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
-          {filteredShoes && filteredShoes.map((shoe) => (
+          {filteredShoes.map((shoe) => (
             <tr key={shoe.id}>
+              <td><img src={shoe.img_url} alt={shoe.name} /></td>
               <td>{shoe.name}</td>
               <td>{shoe.description}</td>
-              <td>{shoe.price}</td>
+              <td>{shoe.price}</td>          
             </tr>
           ))}
         </tbody>
