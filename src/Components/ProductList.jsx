@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SearchBar from './SearchBar';
+//import SearchBar from './SearchBar';
 import { Link } from 'react-router-dom';
 
 function ProductList() {
@@ -15,7 +15,7 @@ function ProductList() {
   return (
     <div className="bot-collection">
       <h1>Shoe Plug</h1>
-      <SearchBar shoes={shoes} />
+      {/*/*<SearchBar shoes={shoes} />*/} 
       {shoes.map((shoe) => (
         <article className="card" key={shoe.id}>
           <div className="card-image">

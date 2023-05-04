@@ -1,14 +1,12 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+import React from 'react';
 
-
-
-export const PurchaseCofirmation = () => {
-    const navigate = useNavigate()
-
-    return (
-        <>
-        <div>Order Confirmed!</div>
-        </>
-    )
+function PurchaseConfirmation() {
+  return (
+    <div className="purchase-confirmation">
+      <h2>Thank you for your purchase!</h2>
+      <p>Your order has been confirmed and will be shipped soon.</p>
+    </div>
+  );
 }
+
+export default PurchaseConfirmation;
