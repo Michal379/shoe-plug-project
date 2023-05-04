@@ -10,7 +10,6 @@ function ShoppingCart({ items, total, onRemoveItem, onPurchase }) {
       ))}
       <div className="shopping-cart-total">
         <p>Total: ${total}</p>
-        <button onClick={onPurchase}>Purchase</button>
       </div>
     </div>
   );
