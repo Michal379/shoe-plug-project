@@ -10,7 +10,7 @@ function ShoppingCart({ items, total, onRemoveItem }) {
 
   return (
     <div>
-      <span>{items.length} items in cart</span>
+      <span>{items && items.length} items in cart</span>
       <span>Total: ${total}</span>
       <button>Checkout</button>
       {items.map((item, index) => (
