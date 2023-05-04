@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function ShoppingCartItem({ item, index, onRemoveItem }) {
+function ShoppingCartItem({ item }) {
   return (
     <div className="shopping-cart-item">
       <div className="shopping-cart-item-img">
@@ -10,7 +10,6 @@ function ShoppingCartItem({ item, index, onRemoveItem }) {
       <div className="shopping-cart-item-info">
         <h3>{item.name}</h3>
         <p>Price: ${item.price}</p>
-        <button onClick={() => onRemoveItem(index)}>Remove</button>
         <Link to="/purchaseConfirmation">
           <button>Purchase</button>
         </Link>
