@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
+import { Link } from 'react-router-dom';
 
 function ProductList() {
   const [shoes, setShoes] = useState([]);
@@ -27,6 +28,7 @@ function ProductList() {
             <div className="card-body">
               <p className="card-text">Description : {shoe.description}</p>
               <p className="card-text">Price : {shoe.price}</p>
+              <Link to={`/product/${shoe.id}`} className="btn btn-primary">View details</Link>
             </div>
           </div>
         </article>
