@@ -1,0 +1,118 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Nike Air Max 270",
+      "img_url": "https://i.pinimg.com/564x/64/42/4f/64424fc0e8fc66521001216d35afce1b.jpg",
+      "description": "Soft and responsive cushioning provides luxurious comfort for everyday wear.Neoprene stretch bootie design ensures a secure fit and stable wear. With a mono-mesh window in the quarter panel and engineered mesh in the forefoot, the Air Max 270 offers breathability perfect for every athlete.These shoes are available in sizes 8,6,5. ",
+      "price": "$150"
+    },
+    {
+      "id": 2,
+      "name": "Adidas Ultraboost 20",
+      "img_url": "https://i.pinimg.com/564x/5d/6b/df/5d6bdfe96231278bc70be04b02579fd3.jpg",
+      "description": "These men´s running shoes are built with precise fit and support for a confident feeling on your daily run. They have an adidas Primeknit+ upper with stitched-in Tailored Fibre Placement for a locked-in fit. These shoes are available in sizes of 11.3, 10 and 9.",
+      "price": "$180"
+    },
+    {
+      "id": 3,
+      "name": "New Balance 990v5",
+      "img_url": "https://i.pinimg.com/564x/02/cf/8d/02cf8d716a1fca31b043715d2d3bd5f2.jpg",
+      "description": "The 990v5 is the flagship New Balance shoe adored by celebrities and streetwear pundits alike. The suede and mesh upper provides a balance of good looks and breathability, and its lightweight foam and polyurethane midsole reduces impact on the joints and provides a slight bounce to your step. These shoes are available in sizes 12, 10, 6.",
+      "price": "$175"
+    },
+    {
+      "id": 4,
+      "name": "Asics Gel-Nimbus 23",
+      "img_url": "https://i.pinimg.com/564x/7d/91/d0/7d91d0da93e59327de0de5c8dc10e2c6.jpg",
+      "description": "The GEL-NIMBUS® 23 running shoe continues to offer excellent comfort and long-run impact absorption. Its improved stability provides a more balanced stride that's followed by smoother transitions. Constructed with comfort and breathability in mind, this shoe features a softer engineered mesh design for long runs.They are available in 12 and 10.5.",
+      "price": "$150"
+    },
+    {
+      "id": 5,
+      "name": "Puma RS-X3",
+      "img_url": "https://i.pinimg.com/564x/7a/24/3e/7a243e6c42fa6117d04243b0cd300816.jpg",
+      "description": "The refreshed version of classic Puma RS (Running System) models, the Puma RS-X has comfortable construction and a bulky design. They feature a combination mesh and textile upper, pull tabs, embossed heel, R-System cushioning, and a rubber outsole. They are available in sizes 5,6,8.",
+      "price": "$120"
+    },
+    {
+      "id": 6,
+      "name": "Reebok Club C 85",
+      "img_url": "https://i.pinimg.com/564x/74/e9/1b/74e91b38b1c5c71e6b35dc0ab0bb8747.jpg",
+      "description": "The Reebok Club C 85 Sneakers have a retro design with a leather upper, giving them an elevated look compared to many canvas sneakers on the market, as well as subtle branding on the sides and heels. They're available in a variety of colors, although I went with classic cream with green details.They are available in sizes 12, 6, 3 and 9.",
+      "price": "$80"
+    },
+    {
+      "id": 7,
+      "name": "Under Armour Curry 8",
+      "img_url": "https://i.pinimg.com/564x/41/6d/d9/416dd9106e03ac6883af9235a4b41a9b.jpg",
+      "description": "The Curry Flow 8 effectively disrupts the design of a traditional basketball shoe by completely eliminating the rubber outsole, bringing unparalleled traction, lightweight performance ground-contact cushioning and grippy on-court feel. They are are available in sizes  4,9, 10.",
+      "price": "$160"
+    },
+    {
+      "id": 8,
+      "name": "Brooks Ghost 13",
+      "img_url": "https://i.pinimg.com/564x/31/18/b4/3118b4583358d9127273d560b176718c.jpg",
+      "description": "The new Ghost 13 offers super smooth transitions plus soft cushioning so your run is the only thing on your mind. DNA LOFT cushioning now extends throughout the midsole for an even smoother transition from heel to toe.Available in sizes 4.3, 3.5, 7, 11.5.",
+      "price": "$130"
+    },
+    {
+      "id": 9,
+      "name": "Mizuno Wave Rider 24",
+      "img_url": "https://i.pinimg.com/564x/c0/d9/1b/c0d91b0946eb172aa8c26f5aa6279f55.jpg",
+      "description": "New midsole material feels more responsive. Nice soft heel cushionin. Deeper flex grooves help improve overall flow.smooth and hits a sweet spot for cushioning that is isn't too much, but firm and responsive enough that they feel good.Sizes 12, 9 and 9.5.",
+     
+  
+      "price": "$140"
+    },
+    {
+      "id": 10,
+      "name": "Saucony Kinvara 12",
+      "img_url": "https://i.pinimg.com/564x/66/43/1b/66431b04d4428ee4211f0801fae2cf4d.jpg",
+      "description": "A fast shoe, which is signified by its low weight, streamlined materials, and simplistic design. Providing maximum responsiveness and a very subtle cushion, this trainer is for those looking to push the pace. These are available in sizes 13, 14 and 12.",
+      "price": "$110"
+    },
+    {
+      "id": 11,
+      "name": "Hoka One One Bondi 7",
+      "img_url": "https://i.pinimg.com/564x/5f/57/62/5f57623257df63614aa9cb86ac024a6b.jpg",
+      "description": "Bondi 7 delivers a smooth and balanced ride. Engineered with the same full EVA midsole, breathable mesh upper and signature Meta-Rocker technology as.The most cushioned HOKA road shoe available, the Bondi 7 delivers a smooth and balanced ride.Available in sizes 12, 10 and 9.",
+      "price": "$150"
+    },
+    {
+      "id": 12,
+      "name": "On Cloud X",
+      "img_url": "https://i.pinimg.com/564x/8d/15/9d/8d159d75dc1f846f356937f183e57473.jpg",
+      "description": "A lightweight and ultra-agile shoe built to handle punishing paces and intense mixed-sport workouts. It's at home on the track, street and in the gym. Get stronger, run longer.Available in sizes 2, 4, 6 and 9.",
+      "price": "$140"
+    },
+    {
+      "id": 13,
+      "name": "Fila Disruptor 2",
+      "img_url": "https://i.pinimg.com/564x/d8/58/dc/d858dc70320c33ccbe71112bf4def225.jpg",
+      "description": "Sporting court-loads of retro athletic appeal, the Disruptor 2 Athletic Shoe features a perforated leather upper with breathable textile lining, padded tongue and collar for added comfort and support, EVA cushioned footbed for all-day comfort, and durable rubber outsole for flexible traction and stability.Available in size 8.5.",
+      "price": "$75"
+    },
+    {
+      "id": 14,
+      "name": "Vans Old Skool",
+      "img_url":"https://i.pinimg.com/564x/44/7c/da/447cda07a9e7a7cf99567833447f3a14.jpg",
+      "description": "They are low top lace-up featuring sturdy canvas and suede uppers, re-enforced toecaps to withstand repeated wear, padded collars for support and flexibility, and signature rubber waffle outsoles.Available in sizes 5 and 9.",
+      "price": "$60"
+    },
+    {
+      "id": 15,
+      "name": "Converse Chuck Taylor All Star",
+      "img_url": "https://i.pinimg.com/564x/44/09/f3/4409f3d52cf6590a2c23e3818e430086.jpg",
+      "description": "They are high top shoes with eight silver eyelets on both sides, made with rubber and fabric. Available in all sizes.",
+      "price": "$55"
+    },
+    {
+      "id": 16,
+      "name": "Dr. Martens 1460",
+      "img_url": "https://i.pinimg.com/564x/28/04/8d/28048d42981956fa0683dbde7bd00b06.jpg",
+      "description": "The 1460 is the original Dr. Martens boot. Its instantly recognizable DNA looks like this: 8 eyes, classic Dr. Martens Smooth leather, grooved sides, a heel-loop, yellow stitching, and a comfortable, air-cushioned sole.Available in sizes 6 and 11.",
+      "price": "$150"
+    }
+  ]
+}
