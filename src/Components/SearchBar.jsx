@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import PurchaseConfirmation from './PurchaseConfirmation';
 
-function SearchBar({ onSearch }) {
+function SearchBar({ onSearch, handleAddToCartClick }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [shoes, setShoes] = useState([]);
 
@@ -34,13 +36,12 @@ function SearchBar({ onSearch }) {
           value={searchTerm}
           onChange={handleChange}
         />
-        <button type="submit" onClick={handleSubmit}>
-          Search
-        </button>
+        <button type="submit">Search</button>
       </form>
       <table>
         <thead>
           <tr>
+            <th>Image</th>
             <th>Name</th>
             <th>Description</th>
             <th>Price</th>
@@ -53,7 +54,13 @@ function SearchBar({ onSearch }) {
               <td><img src={shoe.img_url} alt={shoe.name} /></td>
               <td>{shoe.name}</td>
               <td>{shoe.description}</td>
-              <td>{shoe.price}</td>          
+              <td>{shoe.price}</td>
+              <td>
+              <button onClick={handleAddToCartClick}>Add to Cart</button>
+                <Link to="/purchaseConfirmation">
+                <button>Purchase</button>
+                </Link>
+              </td>
             </tr>
           ))}
         </tbody>
