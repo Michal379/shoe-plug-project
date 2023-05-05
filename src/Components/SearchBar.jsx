@@ -27,6 +27,10 @@ function SearchBar({ onSearch, onAddToCart }) {
     setSearchTerm(event.target.value);
   };
 
+  const handleAddToCartClick = (shoe) => {
+    onAddToCart(shoe);
+  };
+
   return (
     <div>
       <form onSubmit={handleSubmit}>
@@ -57,12 +61,7 @@ function SearchBar({ onSearch, onAddToCart }) {
               <td>{shoe.description}</td>
               <td>{shoe.price}</td>
               <td>
-                <button onClick={onAddToCart}>
-                  <Link to="/cart">Add to Cart</Link>
-                </button>
-                <Link to={`/purchaseConfirmation/${shoe.id}`}>
-                  <button>Purchase</button>
-                </Link>
+                <button onClick={() => handleAddToCartClick(shoe)}>Add to Cart</button>
               </td>
             </tr>
           ))}
