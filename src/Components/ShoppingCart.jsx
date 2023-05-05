@@ -1,22 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import ShoppingCartItem from './ShoppingCartItem';
 
-function ShoppingCartItem({ item, index, onRemoveItem }) {
+function ShoppingCart({ items, total, onPurchase }) {
   return (
-    <div className="shopping-cart-item">
-      <div className="shopping-cart-item-img">
-        <img src={item.img_url} alt={item.name} />
-      </div>
-      <div className="shopping-cart-item-info">
-        <h3>{item.name}</h3>
-        <p>Price: ${item.price}</p>
-        <button onClick={() => onRemoveItem(index)}>Remove</button>
-        <Link to="/purchaseConfirmation">
-          <button>Purchase</button>
-        </Link>
+    <div className="shopping-cart">
+      <h2>Shopping Cart</h2>
+      {items.map((item, index) => (
+        <ShoppingCartItem key={index} item={item} index={index} />
+      ))}
+      <div className="shopping-cart-total">
+        <p>Total: ${total}</p>
       </div>
     </div>
   );
 }
 
-export default ShoppingCartItem;
+export default ShoppingCart;
