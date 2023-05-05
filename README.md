@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# shoe-plug-project
+This is a simple shoe store application built using React. The application allows users to search for shoes and add them to a shopping cart. Users can also view the details of individual shoes and purchase them.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+The application has the following features:
 
-## Available Scripts
+Search for shoes
 
-In the project directory, you can run:
+View the details of individual shoes
 
-### `npm start`
+Add shoes to a shopping cart
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Remove shoes from the shopping cart
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+View the total cost of the items in the shopping cart
 
-### `npm test`
+Purchase the items in the shopping cart
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Dependencies
+The application uses the following dependencies:
 
-### `npm run build`
+React - A JavaScript library for building user interfaces.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+react-router-dom - A library for routing in React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+react-icons - A library of icons for React.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bootstrap - A popular front-end framework for building responsive web applications.
 
-### `npm run eject`
+# Authors:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Michal Khakayi and Timothy Odongo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Contact Information
+To get in touch E-mail us on : 
+michal.khakayi@student.moringaschool.com timothy.odongo@student.moringaschool.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+This project is licensed under the MIT License,  which you can find in the LICENSE.txt file.
