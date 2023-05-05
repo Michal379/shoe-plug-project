@@ -54,7 +54,7 @@ function App() {
           path="/purchaseConfirmation"
           element={<PurchaseConfirmation />}
         />
-      </Routes>
+      </Routes>n
     </>
   );
 }

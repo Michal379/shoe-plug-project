@@ -1,7 +1,7 @@
 import React from 'react';
 import ShoppingCartItem from './ShoppingCartItem';
 
-function ShoppingCart({ items, total, onPurchase }) {
+function ShoppingCart({ items, total }) {
   return (
     <div className="shopping-cart">
       <h2>Shopping Cart</h2>

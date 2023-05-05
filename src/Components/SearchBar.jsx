@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css'
+import PurchaseConfirmation from './PurchaseConfirmation';
 
 function SearchBar({ onSearch, onAddToCart }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -56,7 +57,9 @@ function SearchBar({ onSearch, onAddToCart }) {
               <td>{shoe.description}</td>
               <td>{shoe.price}</td>
               <td>
-                <button onClick={onAddToCart}>Add to Cart</button>
+                <button onClick={onAddToCart}>
+                  <Link to="/cart">Add to Cart</Link>
+                </button>
                 <Link to={`/purchaseConfirmation/${shoe.id}`}>
                   <button>Purchase</button>
                 </Link>
