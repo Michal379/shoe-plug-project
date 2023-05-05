@@ -16,3 +16,4 @@ function ShoppingCart({ items, total, onPurchase }) {
 }
 
 export default ShoppingCart;
+    

@@ -1,123 +1,116 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:wght@300&family=Urbanist:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:wght@300&family=Urbanist:wght@300&display=swap");
 
 .navbar-nav .nav-link {
-    color: #333;
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #555;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff;
+  background-color: #4271a4;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #f8f9fa;
+    padding: 1rem;
   }
-  
+
+  .navbar-nav .nav-link {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+
   .navbar-nav .nav-link:hover {
     color: #555;
   }
-  
+
   .navbar-nav .nav-link.active {
     color: #fff;
     background-color: #4271a4;
   }
-  
-  .navbar-toggler {
-    border: none;
-  }
-  
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  }
-  
-  @media (max-width: 991.98px) {
-    .navbar-collapse {
-      background-color: #f8f9fa;
-      padding: 1rem;
-    }
-  
-    .navbar-nav .nav-link {
-      color: #333;
-      margin-bottom: 0.5rem;
-    }
-  
-    .navbar-nav .nav-link:hover {
-      color: #555;
-    }
-  
-    .navbar-nav .nav-link.active {
-      color: #fff;
-      background-color: #4271a4;
-    }
-  }*/
-  
-  /* index.css */
-
-/*ProductList style*/
+}
 .bot-collection {
-  display: block;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0px;
-  background-size: cover;
-  background-position: center;
+  align-items: center;
+  gap: 2rem;
 }
-
 .bot-collection h1 {
   font-size: 2.9rem;
   font-weight: bolder;
-  font-family: sans-serif;
-  margin-bottom: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 950px;
 }
 
 .card {
-  width: 50%;
-  margin: 0px;
-  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  height: 450px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card-image {
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
 .card-image img {
-  width: 100%;
-  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
 
 .card-content {
-  padding: 20px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-header {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .card-header h4 {
+  margin: 0;
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .card-body {
-  margin-top: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.card-body .card-text {
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #222;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  text-decoration: none;
-  transition: background-color 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #444;
+.card-text {
+  margin-bottom: 0.5rem;
 }
 
 /*productItem style*/
@@ -130,24 +123,20 @@
   background-color: #f9f9f9;
   border-radius: 2px;
 }
-
 .product-name {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-
 .product-image {
   width: 45%;
   margin-bottom: 0rem;
   padding: 0rem;
 }
-
 .product-image img {
   width: 105%;
   height: 590px;
   object-fit: contain;
 }
-
 .product-info {
   display: block;
   align-items: baseline;
@@ -157,13 +146,11 @@
   text-align: left;
   font-size: 1.4rem;
 }
-
 .product-description {
   font-size: 1.2rem;
   text-align: center;
   margin-bottom: 1rem;
 }
-
 .btn {
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
@@ -173,39 +160,36 @@
   border: none;
   cursor: pointer;
 }
-
 .btn-add-to-cart {
   background-color: #4caf50;
   color: #fff;
   margin-right: 1rem;
 }
-
 .btn-add-to-cart:hover {
   background-color: #3e8e41;
 }
-
 .btn-purchase {
-  background-color: #008CBA;
+  background-color: #008cba;
   color: #fff;
-} 
-
+}
 .btn-purchase:hover {
   background-color: #0078a5;
-} 
+}
 /*purchase style*/
 .purchase-confirmation {
+  background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 1.2rem;
   color: #5e5e5e;
-}  
+}
 .purchase-confirmation h2 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
-} 
+}
 .purchase-confirmation p {
   margin-bottom: 20px;
 }
@@ -217,7 +201,7 @@
   padding: 10px;
   font-size: 1.2rem;
   cursor: pointer;
-   transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 .purchase-confirmation__button:hover {
   background-color: #444;
@@ -235,4 +219,36 @@
   font-size: 24px;
   margin-bottom: 10px;
   font-weight: bolder;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-right: 0.5rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #195ba1;
+  color: #fff;
+  border: #222;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #143186;
 }

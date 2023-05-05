@@ -10,8 +10,8 @@ function ProductList() {
       .then((r) => r.json())
       .then((data) => setShoes(data))
       .catch((error) => console.log(error));
-  }, []);
-
+  }, []); 
+  
   return (
     <div className="bot-collection">
       <h1>Shoe Plug</h1>

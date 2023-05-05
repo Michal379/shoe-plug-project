@@ -10,3 +10,4 @@ function PurchaseConfirmation() {
 }
 
 export default PurchaseConfirmation;
+    

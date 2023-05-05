@@ -17,5 +17,5 @@ function ShoppingCartItem({ item }) {
     </div>
   );
 }
-
+ 
 export default ShoppingCartItem;
