@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PurchaseConfirmation from './PurchaseConfirmation';
 
-function SearchBar({ onSearch, handleAddToCartClick }) {
+function SearchBar({ onSearch, onAddToCart }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [shoes, setShoes] = useState([]);
 
@@ -24,6 +24,10 @@ function SearchBar({ onSearch, handleAddToCartClick }) {
 
   const handleChange = (event) => {
     setSearchTerm(event.target.value);
+  };
+
+  const handleAddToCartClick = () => {
+    onAddToCart(shoes);
   };
 
   return (
